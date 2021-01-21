@@ -15,7 +15,11 @@ const ProgressBar = () => {
   return (
     <div className="progress-bar">
       <input type="range" min="0" width="500px;" max={maxTime} value={time} onChange={onChangeTime} />
-      <div className="time">{timeLabel}/{maxTimeLabel}  </div>
+      <div className="time">
+        {timeLabel} 
+        <div className="divider">/</div>
+        {maxTimeLabel}  
+      </div>
     </div>
   );
 }

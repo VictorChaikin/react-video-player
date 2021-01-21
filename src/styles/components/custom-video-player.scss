@@ -1,0 +1,39 @@
+.custom-video-player {
+    .video {
+        height: 35vh;
+        border: 2px solid black;
+    }
+
+    .video-buttons, .progress-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .progress-bar {
+        flex: 1;
+
+        input {
+            margin: 0 30px;
+            flex: 1;
+        }
+
+        .time {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        .divider {
+            margin: 0 5px;
+        }
+    }
+
+    &> * {
+        margin-top: 15px;
+    }
+} 
+
+
+
+
+
