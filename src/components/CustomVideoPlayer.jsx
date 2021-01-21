@@ -1,9 +1,11 @@
+import Video from "./Video";
+import VideoButtons from "./VideoButtons";
 
 const CustomVideoPlayer = () => {
   return (
     <div className="custom-video-player">
-        <div className="video">Video</div>
-        <div className="buttons">Buttons</div>
+      <Video />
+      <VideoButtons />
     </div>
   );
 }
