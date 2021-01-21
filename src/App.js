@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import CustomVideoPlayer from "./components/CustomVideoPlayer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      
+      <CustomVideoPlayer />
     </div>
   );
 }
